@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01321BF13C7B48E00442EC7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01321BE13C7B48E00442EC7 /* Cocoa.framework */; };
+		A01321C913C7B48E00442EC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A01321C713C7B48E00442EC7 /* InfoPlist.strings */; };
+		A01321CC13C7B48E00442EC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01321CB13C7B48E00442EC7 /* main.m */; };
+		A01321CF13C7B48E00442EC7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A01321CD13C7B48E00442EC7 /* Credits.rtf */; };
+		A01321D213C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01321D113C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.m */; };
+		A01321D513C7B48E00442EC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01321D313C7B48E00442EC7 /* MainMenu.xib */; };
+		A01321DD13C7B4B900442EC7 /* CJTutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01321DC13C7B4B900442EC7 /* CJTutorialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A01321BA13C7B48E00442EC7 /* NSTrackingAreaTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTrackingAreaTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01321BE13C7B48E00442EC7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A01321C113C7B48E00442EC7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A01321C213C7B48E00442EC7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A01321C313C7B48E00442EC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A01321C613C7B48E00442EC7 /* NSTrackingAreaTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTrackingAreaTutorial-Info.plist"; sourceTree = "<group>"; };
+		A01321C813C7B48E00442EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A01321CA13C7B48E00442EC7 /* NSTrackingAreaTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTrackingAreaTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		A01321CB13C7B48E00442EC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A01321CE13C7B48E00442EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A01321D013C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTrackingAreaTutorialAppDelegate.h; sourceTree = "<group>"; };
+		A01321D113C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTrackingAreaTutorialAppDelegate.m; sourceTree = "<group>"; };
+		A01321D413C7B48E00442EC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A01321DB13C7B4B900442EC7 /* CJTutorialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTutorialView.h; sourceTree = "<group>"; };
+		A01321DC13C7B4B900442EC7 /* CJTutorialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTutorialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01321B713C7B48E00442EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01321BF13C7B48E00442EC7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01321AF13C7B48E00442EC7 = {
+			isa = PBXGroup;
+			children = (
+				A01321C413C7B48E00442EC7 /* NSTrackingAreaTutorial */,
+				A01321BD13C7B48E00442EC7 /* Frameworks */,
+				A01321BB13C7B48E00442EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A01321BB13C7B48E00442EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A01321BA13C7B48E00442EC7 /* NSTrackingAreaTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01321BD13C7B48E00442EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01321BE13C7B48E00442EC7 /* Cocoa.framework */,
+				A01321C013C7B48E00442EC7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01321C013C7B48E00442EC7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01321C113C7B48E00442EC7 /* AppKit.framework */,
+				A01321C213C7B48E00442EC7 /* CoreData.framework */,
+				A01321C313C7B48E00442EC7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A01321C413C7B48E00442EC7 /* NSTrackingAreaTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				A01321D013C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.h */,
+				A01321D113C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.m */,
+				A01321D313C7B48E00442EC7 /* MainMenu.xib */,
+				A01321C513C7B48E00442EC7 /* Supporting Files */,
+				A01321DB13C7B4B900442EC7 /* CJTutorialView.h */,
+				A01321DC13C7B4B900442EC7 /* CJTutorialView.m */,
+			);
+			path = NSTrackingAreaTutorial;
+			sourceTree = "<group>";
+		};
+		A01321C513C7B48E00442EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A01321C613C7B48E00442EC7 /* NSTrackingAreaTutorial-Info.plist */,
+				A01321C713C7B48E00442EC7 /* InfoPlist.strings */,
+				A01321CA13C7B48E00442EC7 /* NSTrackingAreaTutorial-Prefix.pch */,
+				A01321CB13C7B48E00442EC7 /* main.m */,
+				A01321CD13C7B48E00442EC7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A01321B913C7B48E00442EC7 /* NSTrackingAreaTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01321D813C7B48E00442EC7 /* Build configuration list for PBXNativeTarget "NSTrackingAreaTutorial" */;
+			buildPhases = (
+				A01321B613C7B48E00442EC7 /* Sources */,
+				A01321B713C7B48E00442EC7 /* Frameworks */,
+				A01321B813C7B48E00442EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTrackingAreaTutorial;
+			productName = NSTrackingAreaTutorial;
+			productReference = A01321BA13C7B48E00442EC7 /* NSTrackingAreaTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01321B113C7B48E00442EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Gosign media. GmbH";
+			};
+			buildConfigurationList = A01321B413C7B48E00442EC7 /* Build configuration list for PBXProject "NSTrackingAreaTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A01321AF13C7B48E00442EC7;
+			productRefGroup = A01321BB13C7B48E00442EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A01321B913C7B48E00442EC7 /* NSTrackingAreaTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A01321B813C7B48E00442EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01321C913C7B48E00442EC7 /* InfoPlist.strings in Resources */,
+				A01321CF13C7B48E00442EC7 /* Credits.rtf in Resources */,
+				A01321D513C7B48E00442EC7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01321B613C7B48E00442EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01321CC13C7B48E00442EC7 /* main.m in Sources */,
+				A01321D213C7B48E00442EC7 /* NSTrackingAreaTutorialAppDelegate.m in Sources */,
+				A01321DD13C7B4B900442EC7 /* CJTutorialView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A01321C713C7B48E00442EC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01321C813C7B48E00442EC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A01321CD13C7B48E00442EC7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01321CE13C7B48E00442EC7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A01321D313C7B48E00442EC7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01321D413C7B48E00442EC7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01321D613C7B48E00442EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A01321D713C7B48E00442EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A01321D913C7B48E00442EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTrackingAreaTutorial/NSTrackingAreaTutorial-Prefix.pch";
+				INFOPLIST_FILE = "NSTrackingAreaTutorial/NSTrackingAreaTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A01321DA13C7B48E00442EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTrackingAreaTutorial/NSTrackingAreaTutorial-Prefix.pch";
+				INFOPLIST_FILE = "NSTrackingAreaTutorial/NSTrackingAreaTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01321B413C7B48E00442EC7 /* Build configuration list for PBXProject "NSTrackingAreaTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01321D613C7B48E00442EC7 /* Debug */,
+				A01321D713C7B48E00442EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01321D813C7B48E00442EC7 /* Build configuration list for PBXNativeTarget "NSTrackingAreaTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01321D913C7B48E00442EC7 /* Debug */,
+				A01321DA13C7B48E00442EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01321B113C7B48E00442EC7 /* Project object */;
+}
